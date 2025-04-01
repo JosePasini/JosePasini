@@ -17,8 +17,8 @@
 ## 🛠️ Tech Stack  
 - **Backend:** Golang, Java, Python, C#, C++ and any other language 
 - **Databases:** MySQL, PostgreSQL, MongoDB, BigQuery  
-- **Tools & DevOps:** Docker, Jenkins, Swagger, Git  
-- **Monitoring:** Kibana, DataDog  
+- **Tools & DevOps:** Docker, Jenkins, Swagger, Github
+- **Monitoring:** Kibana, DataDog, Grafana, Google Analytics
 - **APIs & Testing:** Postman, Unit Testing  
 
 ---

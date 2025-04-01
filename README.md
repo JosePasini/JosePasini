@@ -22,13 +22,13 @@
 - **APIs & Testing:** Postman, Unit Testing  
 
 ---
-
+<!--  
 ## 📈 GitHub Stats  
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=TU-USUARIO&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU-USUARIO&layout=compact&theme=radical)  
 
 ---
-
+-->
 ## 🌎 Connect with me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/pasini-jose)  
 [![Email](https://img.shields.io/badge/Email-Contact-blue?style=flat&logo=gmail)](mailto:josepasini.17@gmail.com)  

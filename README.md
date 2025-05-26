@@ -6,6 +6,7 @@
 
 ## 💻 About Me  
 🔹 Passionate about backend development, mainly using **Java** & **Golang**.  
+🔹 Comfortable working with frontend technologies like **React, JavaScript, TypeScript and HTML/CSS.**
 🔹 Experienced in working with **relational (MySQL, BigQuery, PostgreSQL) and NoSQL (MongoDB) databases**.  
 🔹 Skilled in writing **unit tests** and ensuring code quality.  
 🔹 Proficient in **API development and integration**, using tools like **Postman**.  
@@ -15,7 +16,8 @@
 ---
 
 ## 🛠️ Tech Stack  
-- **Backend:** Java, Golang, Python, C#, C++ and any other language 
+- **Backend:** Java, Golang, Python, C#, C++ and any other language
+- **Frontend:** React.
 - **Databases:** MySQL, PostgreSQL, MongoDB, BigQuery  
 - **Tools & DevOps:** Docker, Jenkins, Swagger, Github
 - **Monitoring:** Kibana, DataDog, Grafana, Google Analytics

@@ -1,11 +1,11 @@
 # 👋 Hi there! I'm Jose Pasini
 
-🚀 **Backend Software Engineer | Golang Developer | Technical Programmer | Data Science Student**  
+🚀 **Technical Programmer**  
 
 ---  
 
 ## 💻 About Me  
-🔹 Passionate about backend development, mainly using **Golang**.  
+🔹 Passionate about backend development, mainly using **Java** & **Golang**.  
 🔹 Experienced in working with **relational (MySQL, BigQuery, PostgreSQL) and NoSQL (MongoDB) databases**.  
 🔹 Skilled in writing **unit tests** and ensuring code quality.  
 🔹 Proficient in **API development and integration**, using tools like **Postman**.  
@@ -15,7 +15,7 @@
 ---
 
 ## 🛠️ Tech Stack  
-- **Backend:** Golang, Java, Python, C#, C++ and any other language 
+- **Backend:** Java, Golang, Python, C#, C++ and any other language 
 - **Databases:** MySQL, PostgreSQL, MongoDB, BigQuery  
 - **Tools & DevOps:** Docker, Jenkins, Swagger, Github
 - **Monitoring:** Kibana, DataDog, Grafana, Google Analytics

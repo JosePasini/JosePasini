@@ -1,26 +1,26 @@
-# 👋 Hi there! I'm Jose Pasini 
+# 🎩 Hi there! I'm Jose Pasini  
 
-🚀 **Technical Programmer**  
+🚀 **Technical Programmer**
 
----  
+---
 
 ## 💻 About Me  
-💡 Passionate about backend development, mainly using **Java** & **Golang**.
-🎨 Comfortable working with frontend technologies like **React, JavaScript, TypeScript and HTML/CSS.**
-🗃️ Experienced in working with **relational (MySQL, BigQuery, PostgreSQL) and NoSQL (MongoDB) databases**.  
+💡 Passionate about backend development, mainly using **Java** & **Golang**.  
+🎨 Comfortable working with frontend technologies like **React**, **JavaScript**, **TypeScript**, and **HTML/CSS**.  
+🗃️ Experienced in working with **relational (MySQL, BigQuery, PostgreSQL)** and **NoSQL (MongoDB)** databases.  
 🧪 Skilled in writing **unit tests** and ensuring code quality.  
 🔗 Proficient in **API development and integration**, using tools like **Postman**.  
-📊 Knowledgeable in **observability and monitoring**, using **Kibana & DataDog**.  
+📊 Knowledgeable in **observability and monitoring**, using **Kibana** & **DataDog**.  
 📚 Always learning! Currently pursuing a **B.Sc. in Data Science**.  
 
 ---
 
 ## 🛠️ Tech Stack  
-🔧 **Backend:** Java, Golang, Python, C#, C++ and any other language
-🎨 **Frontend:** React.
+🔧 **Backend:** Java, Golang, Python, C#, C++  
+🎨 **Frontend:** React  
 🗄️ **Databases:** MySQL, PostgreSQL, MongoDB, BigQuery  
-⚙️ **Tools & DevOps:** Docker, Jenkins, Swagger, Github
-📈 **Monitoring:** Kibana, DataDog, Grafana, Google Analytics
+⚙️ **Tools & DevOps:** Docker, Jenkins, Swagger, GitHub  
+📈 **Monitoring:** Kibana, DataDog, Grafana, Google Analytics  
 🧪 **APIs & Testing:** Postman, Unit Testing  
 
 ---

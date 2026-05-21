@@ -2,6 +2,9 @@
 
 🚀 **Technical Programmer**
 
+## 📚 Coding Profiles  
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat&logo=leetcode)](https://leetcode.com/u/JosePasini/)  
+
 ---
 
 ## 💻 About Me  
@@ -16,8 +19,8 @@
 ---
 
 ## 🛠️ Tech Stack  
-🔧 **Backend:** Java, Golang, Python, C#, C++  
-🎨 **Frontend:** React  
+🔧 **Backend:** Java, Golang, Python, C#, C++, Ruby
+🎨 **Frontend:** React, Vue.
 🗄️ **Databases:** MySQL, PostgreSQL, MongoDB, BigQuery  
 ⚙️ **Tools & DevOps:** Docker, Jenkins, Swagger, GitHub  
 📈 **Monitoring:** Kibana, DataDog, Grafana, Google Analytics  

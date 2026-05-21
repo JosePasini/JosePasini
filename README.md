@@ -19,8 +19,8 @@
 ---
 
 ## 🛠️ Tech Stack  
-🔧 **Backend:** Java, Golang, Python, C#, C++, Ruby
-🎨 **Frontend:** React, Vue.
+🔧 **Backend:** Java, Golang, Python, C#, C++, Ruby  
+🎨 **Frontend:** React, Vue.  
 🗄️ **Databases:** MySQL, PostgreSQL, MongoDB, BigQuery  
 ⚙️ **Tools & DevOps:** Docker, Jenkins, Swagger, GitHub  
 📈 **Monitoring:** Kibana, DataDog, Grafana, Google Analytics  

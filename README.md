@@ -31,3 +31,4 @@
 ## 🌎 Connect with me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/pasini-jose)  
 [![Email](https://img.shields.io/badge/Email-Contact-blue?style=flat&logo=gmail)](mailto:josepasini.17@gmail.com)  
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat&logo=leetcode)](https://leetcode.com/u/JosePasini/)  

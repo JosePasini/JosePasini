@@ -2,9 +2,6 @@
 
 🚀 **Technical Programmer**
 
-## 📚 Coding Profiles  
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat&logo=leetcode)](https://leetcode.com/u/JosePasini/)  
-
 ---
 
 ## 💻 About Me  
@@ -25,6 +22,11 @@
 ⚙️ **Tools & DevOps:** Docker, Jenkins, Swagger, GitHub  
 📈 **Monitoring:** Kibana, DataDog, Grafana, Google Analytics  
 🧪 **APIs & Testing:** Postman, Unit Testing  
+
+---
+
+## 📚 Coding Profiles  
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat&logo=leetcode)](https://leetcode.com/u/JosePasini/)  
 
 ---
 

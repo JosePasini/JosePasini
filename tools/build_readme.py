@@ -50,15 +50,15 @@ def badge(name):
     msg = label.replace("-", "--").replace("_", "__").replace(" ", "%20")
     logo = logos.get(label)
     extra = ("&logo=%s&logoColor=7FE7C4" % logo) if logo else ""
-    return ("![%s](https://img.shields.io/badge/%s-161B27?style=for-the-badge%s)"
-            % (label, msg, extra))
+    return ('<a><img src="https://img.shields.io/badge/%s-161B27?style=for-the-badge%s" alt="%s"></a>'
+            % (msg, extra, label))
 
 
 def cat_badge(name):
     # Menta, no el negro de las tecnologias: el titulo tiene que ganarle a los chips.
     msg = name.strip().upper().replace("-", "--").replace(" ", "%20")
-    return ("![%s](https://img.shields.io/badge/%s-7FE7C4?style=for-the-badge&color=7FE7C4)"
-            % (name, msg))
+    return ('<a><img src="https://img.shields.io/badge/%s-7FE7C4?style=for-the-badge&color=7FE7C4" alt="%s"></a>'
+            % (msg, name))
 
 
 def build(lang):

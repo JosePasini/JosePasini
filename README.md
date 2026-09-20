@@ -4,7 +4,7 @@
 
 **There is no skills list here. You play for it.**
 
-[**PLAY THE INTERACTIVE VERSION**](https://josepasini.github.io/JosePasini/) &nbsp;&nbsp;·&nbsp;&nbsp; [Read in Spanish](README.es.md) &nbsp;&nbsp;·&nbsp;&nbsp; [The boring profile](#cv)
+[**PLAY THE INTERACTIVE VERSION**](https://josepasini.github.io/JosePasini/) &nbsp;&nbsp;·&nbsp;&nbsp; [Read in Spanish](README.es.md) &nbsp;&nbsp;·&nbsp;&nbsp; [Simplified profile](#cv)
 
 </div>
 
@@ -34,11 +34,11 @@ You are me, in 2020, in Mendoza. There is a degree to finish, a job to land and 
 
 <a id="cv"></a>
 
-### The boring profile
+### Simplified profile
 
 <div align="center">
 
-<a><img src="assets/en/cv.svg" width="880" alt="The boring profile"></a>
+<a><img src="assets/en/cv.svg" width="880" alt="Simplified profile"></a>
 
 </div>
 
@@ -46,8 +46,8 @@ Backend engineer at **Levry**, Dublin. Previously **Mercado Libre**. **BSc in Da
 
 | | |
 | :---: | :--- |
-| ![Backend](https://img.shields.io/badge/BACKEND-7FE7C4?style=for-the-badge&color=7FE7C4) | ![Java](https://img.shields.io/badge/Java-161B27?style=for-the-badge&logo=openjdk&logoColor=7FE7C4) ![Go](https://img.shields.io/badge/Go-161B27?style=for-the-badge&logo=go&logoColor=7FE7C4) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-161B27?style=for-the-badge&logo=springboot&logoColor=7FE7C4) ![Python](https://img.shields.io/badge/Python-161B27?style=for-the-badge&logo=python&logoColor=7FE7C4) ![Node.js](https://img.shields.io/badge/Node.js-161B27?style=for-the-badge&logo=nodedotjs&logoColor=7FE7C4) |
-| ![Data](https://img.shields.io/badge/DATA-7FE7C4?style=for-the-badge&color=7FE7C4) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B27?style=for-the-badge&logo=postgresql&logoColor=7FE7C4) ![MySQL](https://img.shields.io/badge/MySQL-161B27?style=for-the-badge&logo=mysql&logoColor=7FE7C4) ![MongoDB](https://img.shields.io/badge/MongoDB-161B27?style=for-the-badge&logo=mongodb&logoColor=7FE7C4) ![BigQuery](https://img.shields.io/badge/BigQuery-161B27?style=for-the-badge&logo=googlebigquery&logoColor=7FE7C4) ![SQLite](https://img.shields.io/badge/SQLite-161B27?style=for-the-badge&logo=sqlite&logoColor=7FE7C4) |
-| ![Frontend](https://img.shields.io/badge/FRONTEND-7FE7C4?style=for-the-badge&color=7FE7C4) | ![TypeScript](https://img.shields.io/badge/TypeScript-161B27?style=for-the-badge&logo=typescript&logoColor=7FE7C4) ![React](https://img.shields.io/badge/React-161B27?style=for-the-badge&logo=react&logoColor=7FE7C4) ![Next.js](https://img.shields.io/badge/Next.js-161B27?style=for-the-badge&logo=nextdotjs&logoColor=7FE7C4) ![Vue](https://img.shields.io/badge/Vue-161B27?style=for-the-badge&logo=vuedotjs&logoColor=7FE7C4) |
-| ![Infra](https://img.shields.io/badge/INFRA-7FE7C4?style=for-the-badge&color=7FE7C4) | ![Docker](https://img.shields.io/badge/Docker-161B27?style=for-the-badge&logo=docker&logoColor=7FE7C4) ![GraphQL](https://img.shields.io/badge/GraphQL-161B27?style=for-the-badge&logo=graphql&logoColor=7FE7C4) ![Vercel](https://img.shields.io/badge/Vercel-161B27?style=for-the-badge&logo=vercel&logoColor=7FE7C4) ![Jenkins](https://img.shields.io/badge/Jenkins-161B27?style=for-the-badge&logo=jenkins&logoColor=7FE7C4) |
-| ![Observability](https://img.shields.io/badge/OBSERVABILITY-7FE7C4?style=for-the-badge&color=7FE7C4) | ![Datadog](https://img.shields.io/badge/Datadog-161B27?style=for-the-badge&logo=datadog&logoColor=7FE7C4) ![Kibana](https://img.shields.io/badge/Kibana-161B27?style=for-the-badge&logo=kibana&logoColor=7FE7C4) ![Grafana](https://img.shields.io/badge/Grafana-161B27?style=for-the-badge&logo=grafana&logoColor=7FE7C4) |
+| <a><img src="https://img.shields.io/badge/BACKEND-7FE7C4?style=for-the-badge&color=7FE7C4" alt="Backend"></a> | <a><img src="https://img.shields.io/badge/Java-161B27?style=for-the-badge&logo=openjdk&logoColor=7FE7C4" alt="Java"></a> <a><img src="https://img.shields.io/badge/Go-161B27?style=for-the-badge&logo=go&logoColor=7FE7C4" alt="Go"></a> <a><img src="https://img.shields.io/badge/Spring%20Boot-161B27?style=for-the-badge&logo=springboot&logoColor=7FE7C4" alt="Spring Boot"></a> <a><img src="https://img.shields.io/badge/Python-161B27?style=for-the-badge&logo=python&logoColor=7FE7C4" alt="Python"></a> <a><img src="https://img.shields.io/badge/Node.js-161B27?style=for-the-badge&logo=nodedotjs&logoColor=7FE7C4" alt="Node.js"></a> |
+| <a><img src="https://img.shields.io/badge/DATA-7FE7C4?style=for-the-badge&color=7FE7C4" alt="Data"></a> | <a><img src="https://img.shields.io/badge/PostgreSQL-161B27?style=for-the-badge&logo=postgresql&logoColor=7FE7C4" alt="PostgreSQL"></a> <a><img src="https://img.shields.io/badge/MySQL-161B27?style=for-the-badge&logo=mysql&logoColor=7FE7C4" alt="MySQL"></a> <a><img src="https://img.shields.io/badge/MongoDB-161B27?style=for-the-badge&logo=mongodb&logoColor=7FE7C4" alt="MongoDB"></a> <a><img src="https://img.shields.io/badge/BigQuery-161B27?style=for-the-badge&logo=googlebigquery&logoColor=7FE7C4" alt="BigQuery"></a> <a><img src="https://img.shields.io/badge/SQLite-161B27?style=for-the-badge&logo=sqlite&logoColor=7FE7C4" alt="SQLite"></a> |
+| <a><img src="https://img.shields.io/badge/FRONTEND-7FE7C4?style=for-the-badge&color=7FE7C4" alt="Frontend"></a> | <a><img src="https://img.shields.io/badge/TypeScript-161B27?style=for-the-badge&logo=typescript&logoColor=7FE7C4" alt="TypeScript"></a> <a><img src="https://img.shields.io/badge/React-161B27?style=for-the-badge&logo=react&logoColor=7FE7C4" alt="React"></a> <a><img src="https://img.shields.io/badge/Next.js-161B27?style=for-the-badge&logo=nextdotjs&logoColor=7FE7C4" alt="Next.js"></a> <a><img src="https://img.shields.io/badge/Vue-161B27?style=for-the-badge&logo=vuedotjs&logoColor=7FE7C4" alt="Vue"></a> |
+| <a><img src="https://img.shields.io/badge/INFRA-7FE7C4?style=for-the-badge&color=7FE7C4" alt="Infra"></a> | <a><img src="https://img.shields.io/badge/Docker-161B27?style=for-the-badge&logo=docker&logoColor=7FE7C4" alt="Docker"></a> <a><img src="https://img.shields.io/badge/GraphQL-161B27?style=for-the-badge&logo=graphql&logoColor=7FE7C4" alt="GraphQL"></a> <a><img src="https://img.shields.io/badge/Vercel-161B27?style=for-the-badge&logo=vercel&logoColor=7FE7C4" alt="Vercel"></a> <a><img src="https://img.shields.io/badge/Jenkins-161B27?style=for-the-badge&logo=jenkins&logoColor=7FE7C4" alt="Jenkins"></a> |
+| <a><img src="https://img.shields.io/badge/OBSERVABILITY-7FE7C4?style=for-the-badge&color=7FE7C4" alt="Observability"></a> | <a><img src="https://img.shields.io/badge/Datadog-161B27?style=for-the-badge&logo=datadog&logoColor=7FE7C4" alt="Datadog"></a> <a><img src="https://img.shields.io/badge/Kibana-161B27?style=for-the-badge&logo=kibana&logoColor=7FE7C4" alt="Kibana"></a> <a><img src="https://img.shields.io/badge/Grafana-161B27?style=for-the-badge&logo=grafana&logoColor=7FE7C4" alt="Grafana"></a> |

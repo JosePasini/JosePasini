@@ -57,8 +57,8 @@
       "es": "CAPÍTULOS"
     },
     "cv_title": {
-      "en": "The boring profile",
-      "es": "El perfil aburrido"
+      "en": "Simplified profile",
+      "es": "Perfil simplificado"
     },
     "start": {
       "en": "PRESS START",
@@ -835,7 +835,7 @@
     },
     "cv": {
       "en": {
-        "header": "THE BORING PROFILE",
+        "header": "SIMPLIFIED PROFILE",
         "lines": [
           ["role", "backend engineer @ Levry, Dublin"],
           ["prev", "Mercado Libre"],
@@ -843,7 +843,7 @@
         ]
       },
       "es": {
-        "header": "EL PERFIL ABURRIDO",
+        "header": "PERFIL SIMPLIFICADO",
         "lines": [
           ["rol", "backend engineer @ Levry, Dublín"],
           ["antes", "Mercado Libre"],

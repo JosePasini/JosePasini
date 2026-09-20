@@ -27,7 +27,8 @@ def art(lang, name, alt, href=None):
     img = '<img src="assets/%s/%s.svg" width="880" alt="%s">' % (lang, name, alt)
     if href:
         return '<a href="%s">%s</a>' % (href, img)
-    return '<a>%s</a>' % img
+    # GitHub descarta <a> vacio y pone el link al archivo. #cv deja el click aca.
+    return '<a href="#cv">%s</a>' % img
 
 
 def L(node, lang):
@@ -50,14 +51,14 @@ def badge(name):
     msg = label.replace("-", "--").replace("_", "__").replace(" ", "%20")
     logo = logos.get(label)
     extra = ("&logo=%s&logoColor=7FE7C4" % logo) if logo else ""
-    return ('<a><img src="https://img.shields.io/badge/%s-161B27?style=for-the-badge%s" alt="%s"></a>'
+    return ('<a href="#cv"><img src="https://img.shields.io/badge/%s-161B27?style=for-the-badge%s" alt="%s"></a>'
             % (msg, extra, label))
 
 
 def cat_badge(name):
     # Menta, no el negro de las tecnologias: el titulo tiene que ganarle a los chips.
     msg = name.strip().upper().replace("-", "--").replace(" ", "%20")
-    return ('<a><img src="https://img.shields.io/badge/%s-7FE7C4?style=for-the-badge&color=7FE7C4" alt="%s"></a>'
+    return ('<a href="#cv"><img src="https://img.shields.io/badge/%s-7FE7C4?style=for-the-badge&color=7FE7C4" alt="%s"></a>'
             % (msg, name))
 
 

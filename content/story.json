@@ -832,6 +832,24 @@
         "done": "PARTIDA COMPLETA",
         "route": "MENDOZA > MERCADO LIBRE > DUBLÍN > LEVRY"
       }
+    },
+    "cv": {
+      "en": {
+        "header": "THE BORING PROFILE",
+        "lines": [
+          ["role", "backend engineer @ Levry, Dublin"],
+          ["prev", "Mercado Libre"],
+          ["edu", "BSc Data Science — UGR, 2026"]
+        ]
+      },
+      "es": {
+        "header": "EL PERFIL ABURRIDO",
+        "lines": [
+          ["rol", "backend engineer @ Levry, Dublín"],
+          ["antes", "Mercado Libre"],
+          ["edu", "Lic. Ciencia de Datos — UGR, 2026"]
+        ]
+      }
     }
   },
   "link_labels": {

@@ -451,6 +451,28 @@ def final(T):
     return panel("final", W, 200, style=style, body=body, bulbs="all")
 
 
+def cv(T):
+    id_lines = []
+    for i, row in enumerate(T["lines"]):
+        y = 88 + i * 36
+        id_lines.append(
+            '<text class="cmd" x="34" y="%d">%s</text>'
+            '<text class="body" x="130" y="%d">%s</text>'
+            % (y, esc(row[0]), y, esc(row[1])))
+    style = """
+    .cmd { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 15px; fill: #7FE7C4; }
+    .body { font-size: 16px; }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+    """
+    body = (
+        '<text class="hdr" x="34" y="44">%s</text>%s'
+        '<rect class="cur" x="34" y="198" width="9" height="2" fill="#FFD166"/>'
+        % (esc(T["header"]), "".join(id_lines))
+    )
+    return panel("cv", W, 220, style=style, body=body)
+
+
 CH_FN = {"mendoza": ch1, "utn": ch2, "challenge": ch3, "escala": ch4,
          "avion": ch5, "idioma": ch6, "hoy": ch8}
 PR_FN = {"takegig": p_takegig, "elbuensabor": p_buensabor,
@@ -464,6 +486,7 @@ def main():
         made = []
         for key, fn in (("title", title), ("mapa", mapa), ("final", final)):
             made.append(fn(STORY["standalone_art"][key][lang]).name)
+        made.append(cv(STORY["standalone_art"]["cv"][lang]).name)
         for ch in STORY["chapters"]:
             fn = CH_FN.get(ch["id"])
             if fn and ch["art"] and not ch.get("hidden"):

@@ -36,10 +36,26 @@ Sos yo, en 2020, en Mendoza. Hay un título por terminar, un trabajo por consegu
 
 ### El perfil aburrido
 
+<div align="center">
+
+<a><img src="assets/es/cv.svg" width="880" alt="El perfil aburrido"></a>
+
+</div>
+
 Backend engineer en **Levry**, Dublín. Antes, **Mercado Libre**. **Licenciatura en Ciencia de Datos**, Universidad del Gran Rosario (2026).
 
-- **Backend** &nbsp; Java, Go, Spring Boot, Python, Node.js
-- **Datos** &nbsp; PostgreSQL, MySQL, MongoDB, BigQuery, SQLite
-- **Frontend** &nbsp; TypeScript, React, Next.js, Vue
-- **Infra** &nbsp; Docker, GraphQL, Vercel, Jenkins
-- **Observabilidad** &nbsp; Datadog, Kibana, Grafana
+**Backend**  
+![Java](https://img.shields.io/badge/Java-161B27?style=for-the-badge&logo=openjdk&logoColor=7FE7C4) ![Go](https://img.shields.io/badge/Go-161B27?style=for-the-badge&logo=go&logoColor=7FE7C4) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-161B27?style=for-the-badge&logo=springboot&logoColor=7FE7C4) ![Python](https://img.shields.io/badge/Python-161B27?style=for-the-badge&logo=python&logoColor=7FE7C4) ![Node.js](https://img.shields.io/badge/Node.js-161B27?style=for-the-badge&logo=nodedotjs&logoColor=7FE7C4)
+
+**Datos**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B27?style=for-the-badge&logo=postgresql&logoColor=7FE7C4) ![MySQL](https://img.shields.io/badge/MySQL-161B27?style=for-the-badge&logo=mysql&logoColor=7FE7C4) ![MongoDB](https://img.shields.io/badge/MongoDB-161B27?style=for-the-badge&logo=mongodb&logoColor=7FE7C4) ![BigQuery](https://img.shields.io/badge/BigQuery-161B27?style=for-the-badge&logo=googlebigquery&logoColor=7FE7C4) ![SQLite](https://img.shields.io/badge/SQLite-161B27?style=for-the-badge&logo=sqlite&logoColor=7FE7C4)
+
+**Frontend**  
+![TypeScript](https://img.shields.io/badge/TypeScript-161B27?style=for-the-badge&logo=typescript&logoColor=7FE7C4) ![React](https://img.shields.io/badge/React-161B27?style=for-the-badge&logo=react&logoColor=7FE7C4) ![Next.js](https://img.shields.io/badge/Next.js-161B27?style=for-the-badge&logo=nextdotjs&logoColor=7FE7C4) ![Vue](https://img.shields.io/badge/Vue-161B27?style=for-the-badge&logo=vuedotjs&logoColor=7FE7C4)
+
+**Infra**  
+![Docker](https://img.shields.io/badge/Docker-161B27?style=for-the-badge&logo=docker&logoColor=7FE7C4) ![GraphQL](https://img.shields.io/badge/GraphQL-161B27?style=for-the-badge&logo=graphql&logoColor=7FE7C4) ![Vercel](https://img.shields.io/badge/Vercel-161B27?style=for-the-badge&logo=vercel&logoColor=7FE7C4) ![Jenkins](https://img.shields.io/badge/Jenkins-161B27?style=for-the-badge&logo=jenkins&logoColor=7FE7C4)
+
+**Observabilidad**  
+![Datadog](https://img.shields.io/badge/Datadog-161B27?style=for-the-badge&logo=datadog&logoColor=7FE7C4) ![Kibana](https://img.shields.io/badge/Kibana-161B27?style=for-the-badge&logo=kibana&logoColor=7FE7C4) ![Grafana](https://img.shields.io/badge/Grafana-161B27?style=for-the-badge&logo=grafana&logoColor=7FE7C4)
+

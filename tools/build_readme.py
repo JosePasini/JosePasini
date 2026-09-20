@@ -36,6 +36,24 @@ def L(node, lang):
     return node
 
 
+def badge(name):
+    logos = {
+        "Java": "openjdk", "Go": "go", "Spring Boot": "springboot", "Python": "python",
+        "Node.js": "nodedotjs", "PostgreSQL": "postgresql", "MySQL": "mysql",
+        "MongoDB": "mongodb", "BigQuery": "googlebigquery", "SQLite": "sqlite",
+        "TypeScript": "typescript", "React": "react", "Next.js": "nextdotjs",
+        "Vue": "vuedotjs", "Docker": "docker", "GraphQL": "graphql",
+        "Vercel": "vercel", "Jenkins": "jenkins", "Datadog": "datadog",
+        "Kibana": "kibana", "Grafana": "grafana",
+    }
+    label = name.strip()
+    msg = label.replace("-", "--").replace("_", "__").replace(" ", "%20")
+    logo = logos.get(label)
+    extra = ("&logo=%s&logoColor=7FE7C4" % logo) if logo else ""
+    return ("![%s](https://img.shields.io/badge/%s-161B27?style=for-the-badge%s)"
+            % (label, msg, extra))
+
+
 def build(lang):
     ui, other = STORY["ui"], ("es" if lang == "en" else "en")
     play = game_url(lang)
@@ -93,10 +111,19 @@ def build(lang):
     out.append("")
     out.append("### %s" % ui["cv_title"][lang])
     out.append("")
+    out.append('<div align="center">')
+    out.append("")
+    out.append(art(lang, "cv", ui["cv_title"][lang]))
+    out.append("")
+    out.append("</div>")
+    out.append("")
     out.append(L(STORY["boring"]["summary"], lang))
     out.append("")
     for label, value in STORY["boring"]["stack"]:
-        out.append("- **%s** &nbsp; %s" % (L(label, lang), value))
+        chips = " ".join(badge(p.strip()) for p in value.split(",") if p.strip())
+        out.append("**%s**  " % L(label, lang))
+        out.append(chips)
+        out.append("")
     out.append("")
 
     return "\n".join(out)

@@ -54,6 +54,13 @@ def badge(name):
             % (label, msg, extra))
 
 
+def cat_badge(name):
+    # Menta, no el negro de las tecnologias: el titulo tiene que ganarle a los chips.
+    msg = name.strip().upper().replace("-", "--").replace(" ", "%20")
+    return ("![%s](https://img.shields.io/badge/%s-7FE7C4?style=for-the-badge&color=7FE7C4)"
+            % (name, msg))
+
+
 def build(lang):
     ui, other = STORY["ui"], ("es" if lang == "en" else "en")
     play = game_url(lang)
@@ -119,11 +126,11 @@ def build(lang):
     out.append("")
     out.append(L(STORY["boring"]["summary"], lang))
     out.append("")
+    out.append("| | |")
+    out.append("| :---: | :--- |")
     for label, value in STORY["boring"]["stack"]:
         chips = " ".join(badge(p.strip()) for p in value.split(",") if p.strip())
-        out.append("**%s**  " % L(label, lang))
-        out.append(chips)
-        out.append("")
+        out.append("| %s | %s |" % (cat_badge(L(label, lang)), chips))
     out.append("")
 
     return "\n".join(out)

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="title">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121721"/>
+      <stop offset="100%" stop-color="#0a0d13"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FE3FF"/>
+      <stop offset="45%" stop-color="#39C2FF"/>
+      <stop offset="55%" stop-color="#1E6BFF"/>
+      <stop offset="100%" stop-color="#7A3BFF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity="0.022"/>
+    </pattern>
+
+    <clipPath id="clip"><rect width="880" height="250" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .lbl { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; letter-spacing: 3px; fill: #6B7A99; }
+    .hdr { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 17px; letter-spacing: 4px; fill: #7FE7C4; }
+    .big { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 34px; letter-spacing: 2px; fill: url(#chrome); }
+    .body { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; fill: #C9D4E8; }
+    .dim  { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 12px; fill: #6B7A99; }
+    .sweep { animation: sweep 6s ease-in-out infinite; }
+    @keyframes sweep {
+      0%   { transform: translateX(-900px); }
+      55%  { transform: translateX(900px); }
+      100% { transform: translateX(900px); }
+    }
+    /* Quien pidio menos movimiento ve el panel quieto. Apagar la animacion no
+       alcanza: varios elementos arrancan invisibles y solo aparecen al animarse,
+       asi que hay que fijarles el estado de reposo o el panel queda vacio.
+       No se toca la opacidad en general, porque muchas formas dependen de una
+       opacidad parcial deliberada. */
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .letter, .plane, .chk, .note, .mus,
+      .l0, .l1, .l2 { opacity: 1 !important; }
+      .trace { stroke-dashoffset: 0 !important; }
+      .sub { opacity: 0 !important; }
+      .sub.s0 { opacity: 1 !important; }
+    }
+
+    .t { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+         font-weight: 800; font-size: 74px; letter-spacing: 6px; text-anchor: middle; }
+    .s { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 16px;
+         letter-spacing: 7px; text-anchor: middle; fill: #7FE7C4; }
+    .start { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 14px;
+             letter-spacing: 4px; text-anchor: middle; fill: #FFD166;
+             animation: blink 1.4s steps(1) infinite; }
+    @keyframes blink { 0%,55% { opacity: 1; } 56%,100% { opacity: 0; } }
+    .coin { animation: float 2.6s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); }
+                       50% { transform: translateY(-5px); } }
+    </style>
+
+  <rect width="880" height="250" rx="14" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="877" height="247" rx="13" fill="none" stroke="#2A3550" stroke-width="3"/>
+  <rect x="13" y="13" width="854" height="224" rx="8" fill="none" stroke="#1B2437" stroke-width="1.5"/>
+  <g fill="#FFD166" opacity="0.7"><circle cx="34" cy="26" r="2.5"/><circle cx="62" cy="26" r="2.5"/><circle cx="818" cy="26" r="2.5"/><circle cx="846" cy="26" r="2.5"/><circle cx="34" cy="224" r="2.5"/><circle cx="62" cy="224" r="2.5"/><circle cx="818" cy="224" r="2.5"/><circle cx="846" cy="224" r="2.5"/></g>
+
+  <text class="t" x="440" y="112" fill="url(#chrome)" filter="url(#glow)">JOSE PASINI</text><text class="s" x="440" y="152">UNA AVENTURA DE TEXTO</text><g transform="translate(440,186)"><g class="coin"><circle r="11" fill="none" stroke="#FFD166" stroke-width="2"/><text y="6" text-anchor="middle" font-family="monospace" font-size="13" font-weight="700" fill="#FFD166">$</text></g></g><text class="start" x="440" y="224">INSERT COIN - PRESS START</text>
+
+  <rect width="880" height="250" rx="14" fill="url(#scan)"/>
+  <g clip-path="url(#clip)">
+    <rect class="sweep" x="0" y="0" width="150" height="250" fill="#8FE3FF" opacity="0.04"/>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 228" width="880" height="228" role="img" aria-label="ch3 challenge">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121721"/>
+      <stop offset="100%" stop-color="#0a0d13"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FE3FF"/>
+      <stop offset="45%" stop-color="#39C2FF"/>
+      <stop offset="55%" stop-color="#1E6BFF"/>
+      <stop offset="100%" stop-color="#7A3BFF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity="0.022"/>
+    </pattern>
+
+    <clipPath id="clip"><rect width="880" height="228" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .lbl { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; letter-spacing: 3px; fill: #6B7A99; }
+    .hdr { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 17px; letter-spacing: 4px; fill: #7FE7C4; }
+    .big { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 34px; letter-spacing: 2px; fill: url(#chrome); }
+    .body { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; fill: #C9D4E8; }
+    .dim  { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 12px; fill: #6B7A99; }
+    .sweep { animation: sweep 6s ease-in-out infinite; }
+    @keyframes sweep {
+      0%   { transform: translateX(-900px); }
+      55%  { transform: translateX(900px); }
+      100% { transform: translateX(900px); }
+    }
+    /* Quien pidio menos movimiento ve el panel quieto. Apagar la animacion no
+       alcanza: varios elementos arrancan invisibles y solo aparecen al animarse,
+       asi que hay que fijarles el estado de reposo o el panel queda vacio.
+       No se toca la opacidad en general, porque muchas formas dependen de una
+       opacidad parcial deliberada. */
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .letter, .plane, .chk, .note, .mus,
+      .l0, .l1, .l2 { opacity: 1 !important; }
+      .trace { stroke-dashoffset: 0 !important; }
+      .sub { opacity: 0 !important; }
+      .sub.s0 { opacity: 1 !important; }
+    }
+
+    .flap { transform-origin: 50% 0%; animation: open 5s ease-in-out infinite; }
+    @keyframes open { 0%,12% { transform: rotateX(0deg); }
+                      30%,88% { transform: rotateX(178deg); }
+                      100% { transform: rotateX(0deg); } }
+    .letter { animation: slide 5s ease-in-out infinite; }
+    @keyframes slide { 0%,24% { transform: translateY(0); opacity: 0; }
+                       44% { transform: translateY(-26px); opacity: 1; }
+                       88% { transform: translateY(-26px); opacity: 1; }
+                       100% { transform: translateY(0); opacity: 0; } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+    </style>
+
+  <rect width="880" height="228" rx="14" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="877" height="225" rx="13" fill="none" stroke="#2A3550" stroke-width="3"/>
+  <rect x="13" y="13" width="854" height="202" rx="8" fill="none" stroke="#1B2437" stroke-width="1.5"/>
+  <g fill="#FFD166" opacity="0.7"><circle cx="34" cy="26" r="2.5"/><circle cx="62" cy="26" r="2.5"/><circle cx="818" cy="26" r="2.5"/><circle cx="846" cy="26" r="2.5"/></g>
+
+  <text class="hdr" x="34" y="44">CHAPTER 3 / THE CHALLENGE</text><g transform="translate(34,100)"><g class="letter"><rect x="18" y="4" width="132" height="58" rx="3" fill="#161B27" stroke="#2A3550"/><rect x="28" y="16" width="70" height="4" rx="2" fill="#7FE7C4" opacity="0.8"/><rect x="28" y="28" width="104" height="3" rx="1.5" fill="#2A3550"/><rect x="28" y="38" width="88" height="3" rx="1.5" fill="#2A3550"/><rect x="28" y="48" width="96" height="3" rx="1.5" fill="#2A3550"/></g><rect y="30" width="168" height="62" rx="4" fill="#1B2437" stroke="#2A3550" stroke-width="1.5"/><g class="flap"><path d="M0 30 L84 74 L168 30 Z" fill="#212a3d" stroke="#2A3550" stroke-width="1.5"/></g></g><text class="body" x="250" y="92">Subject: technical challenge</text><text class="dim" x="250" y="116">One week. Half the decisions</text><text class="dim" x="250" y="136">are yours, and that is where</text><text class="dim" x="250" y="156">they are looking.</text><rect class="cur" x="250" y="186" width="8" height="2" fill="#FFD166"/>
+
+  <rect width="880" height="228" rx="14" fill="url(#scan)"/>
+  <g clip-path="url(#clip)">
+    <rect class="sweep" x="0" y="0" width="150" height="228" fill="#8FE3FF" opacity="0.04"/>
+  </g>
+</svg>

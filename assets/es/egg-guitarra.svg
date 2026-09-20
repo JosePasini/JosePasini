@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 215" width="880" height="215" role="img" aria-label="egg guitarra">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121721"/>
+      <stop offset="100%" stop-color="#0a0d13"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FE3FF"/>
+      <stop offset="45%" stop-color="#39C2FF"/>
+      <stop offset="55%" stop-color="#1E6BFF"/>
+      <stop offset="100%" stop-color="#7A3BFF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity="0.022"/>
+    </pattern>
+
+    <clipPath id="clip"><rect width="880" height="215" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .lbl { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; letter-spacing: 3px; fill: #6B7A99; }
+    .hdr { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 17px; letter-spacing: 4px; fill: #7FE7C4; }
+    .big { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 34px; letter-spacing: 2px; fill: url(#chrome); }
+    .body { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; fill: #C9D4E8; }
+    .dim  { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 12px; fill: #6B7A99; }
+    .sweep { animation: sweep 6s ease-in-out infinite; }
+    @keyframes sweep {
+      0%   { transform: translateX(-900px); }
+      55%  { transform: translateX(900px); }
+      100% { transform: translateX(900px); }
+    }
+    /* Quien pidio menos movimiento ve el panel quieto. Apagar la animacion no
+       alcanza: varios elementos arrancan invisibles y solo aparecen al animarse,
+       asi que hay que fijarles el estado de reposo o el panel queda vacio.
+       No se toca la opacidad en general, porque muchas formas dependen de una
+       opacidad parcial deliberada. */
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .letter, .plane, .chk, .note, .mus,
+      .l0, .l1, .l2 { opacity: 1 !important; }
+      .trace { stroke-dashoffset: 0 !important; }
+      .sub { opacity: 0 !important; }
+      .sub.s0 { opacity: 1 !important; }
+    }
+
+    .note { opacity: 0; animation: press 4.2s ease-in-out infinite; }
+    .n0{animation-delay:0s} .n1{animation-delay:.5s}
+    .n2{animation-delay:1s} .n3{animation-delay:1.5s}
+    @keyframes press { 0% { opacity: 0; } 10%,60% { opacity: 1; } 100% { opacity: 0; } }
+    .mus { animation: rise 4s ease-out infinite; }
+    .m1 { animation-delay: 1.2s; } .m2 { animation-delay: 2.4s; }
+    @keyframes rise { 0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+                      20% { opacity: .9; }
+                      100% { transform: translateY(-46px) rotate(16deg); opacity: 0; } }
+    </style>
+
+  <rect width="880" height="215" rx="14" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="877" height="212" rx="13" fill="none" stroke="#2A3550" stroke-width="3"/>
+  <rect x="13" y="13" width="854" height="189" rx="8" fill="none" stroke="#1B2437" stroke-width="1.5"/>
+  <g fill="#FFD166" opacity="0.7"><circle cx="34" cy="26" r="2.5"/><circle cx="62" cy="26" r="2.5"/><circle cx="818" cy="26" r="2.5"/><circle cx="846" cy="26" r="2.5"/></g>
+
+  <text class="hdr" x="34" y="44">* EASTER EGG / LA GUITARRA</text><line x1="60" y1="72" x2="560" y2="72" stroke="#2A3550" stroke-width="1.4"/><line x1="60" y1="89" x2="560" y2="89" stroke="#2A3550" stroke-width="1.4"/><line x1="60" y1="106" x2="560" y2="106" stroke="#2A3550" stroke-width="1.4"/><line x1="60" y1="123" x2="560" y2="123" stroke="#2A3550" stroke-width="1.4"/><line x1="60" y1="140" x2="560" y2="140" stroke="#2A3550" stroke-width="1.4"/><line x1="60" y1="157" x2="560" y2="157" stroke="#2A3550" stroke-width="1.4"/><line x1="60" y1="66" x2="60" y2="163" stroke="#1B2437" stroke-width="2"/><line x1="131" y1="66" x2="131" y2="163" stroke="#1B2437" stroke-width="2"/><line x1="202" y1="66" x2="202" y2="163" stroke="#1B2437" stroke-width="2"/><line x1="273" y1="66" x2="273" y2="163" stroke="#1B2437" stroke-width="2"/><line x1="344" y1="66" x2="344" y2="163" stroke="#1B2437" stroke-width="2"/><line x1="415" y1="66" x2="415" y2="163" stroke="#1B2437" stroke-width="2"/><line x1="486" y1="66" x2="486" y2="163" stroke="#1B2437" stroke-width="2"/><line x1="557" y1="66" x2="557" y2="163" stroke="#1B2437" stroke-width="2"/><circle class="note n0" cx="202" cy="89" r="6" fill="#FFD166"/><circle class="note n1" cx="273" cy="106" r="6" fill="#FFD166"/><circle class="note n2" cx="131" cy="123" r="6" fill="#FFD166"/><circle class="note n3" cx="344" cy="72" r="6" fill="#FFD166"/><g fill="#7FE7C4" font-family="serif" font-size="22"><text class="mus" x="600" y="150">&#9834;</text><text class="mus m1" x="628" y="150">&#9835;</text><text class="mus m2" x="656" y="150">&#9834;</text></g><text class="body" x="600" y="86">El silencio</text><text class="body" x="600" y="108">tambi&#233;n es parte.</text><text class="dim" x="34" y="196">lo que decid&#237;s no escribir importa m&#225;s que lo que si</text>
+
+  <rect width="880" height="215" rx="14" fill="url(#scan)"/>
+  <g clip-path="url(#clip)">
+    <rect class="sweep" x="0" y="0" width="150" height="215" fill="#8FE3FF" opacity="0.04"/>
+  </g>
+</svg>

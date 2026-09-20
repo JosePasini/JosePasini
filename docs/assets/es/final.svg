@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200" role="img" aria-label="final">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121721"/>
+      <stop offset="100%" stop-color="#0a0d13"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FE3FF"/>
+      <stop offset="45%" stop-color="#39C2FF"/>
+      <stop offset="55%" stop-color="#1E6BFF"/>
+      <stop offset="100%" stop-color="#7A3BFF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity="0.022"/>
+    </pattern>
+
+    <clipPath id="clip"><rect width="880" height="200" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .lbl { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; letter-spacing: 3px; fill: #6B7A99; }
+    .hdr { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 17px; letter-spacing: 4px; fill: #7FE7C4; }
+    .big { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 34px; letter-spacing: 2px; fill: url(#chrome); }
+    .body { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; fill: #C9D4E8; }
+    .dim  { font-family: "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 12px; fill: #6B7A99; }
+    .sweep { animation: sweep 6s ease-in-out infinite; }
+    @keyframes sweep {
+      0%   { transform: translateX(-900px); }
+      55%  { transform: translateX(900px); }
+      100% { transform: translateX(900px); }
+    }
+    /* Quien pidio menos movimiento ve el panel quieto. Apagar la animacion no
+       alcanza: varios elementos arrancan invisibles y solo aparecen al animarse,
+       asi que hay que fijarles el estado de reposo o el panel queda vacio.
+       No se toca la opacidad en general, porque muchas formas dependen de una
+       opacidad parcial deliberada. */
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .letter, .plane, .chk, .note, .mus,
+      .l0, .l1, .l2 { opacity: 1 !important; }
+      .trace { stroke-dashoffset: 0 !important; }
+      .sub { opacity: 0 !important; }
+      .sub.s0 { opacity: 1 !important; }
+    }
+
+    .star { animation: tw 2.4s ease-in-out infinite; }
+    .t0{animation-delay:0s} .t1{animation-delay:.6s}
+    .t2{animation-delay:1.2s} .t3{animation-delay:1.8s}
+    @keyframes tw { 0%,100% { opacity: .2; transform: scale(.8); }
+                    50% { opacity: 1; transform: scale(1.3); } }
+    .done { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 800;
+            font-size: 42px; letter-spacing: 3px; text-anchor: middle; fill: url(#chrome); }
+    .route { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13px;
+             letter-spacing: 3px; text-anchor: middle; fill: #FFD166;
+             animation: blink 1.5s steps(1) infinite; }
+    @keyframes blink { 0%,60% { opacity: 1; } 61%,100% { opacity: 0; } }
+    </style>
+
+  <rect width="880" height="200" rx="14" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="877" height="197" rx="13" fill="none" stroke="#2A3550" stroke-width="3"/>
+  <rect x="13" y="13" width="854" height="174" rx="8" fill="none" stroke="#1B2437" stroke-width="1.5"/>
+  <g fill="#FFD166" opacity="0.7"><circle cx="34" cy="26" r="2.5"/><circle cx="62" cy="26" r="2.5"/><circle cx="818" cy="26" r="2.5"/><circle cx="846" cy="26" r="2.5"/><circle cx="34" cy="174" r="2.5"/><circle cx="62" cy="174" r="2.5"/><circle cx="818" cy="174" r="2.5"/><circle cx="846" cy="174" r="2.5"/></g>
+
+  <circle class="star t0" cx="120" cy="70" r="2.4" fill="#FFD166"/><circle class="star t1" cx="250" cy="52" r="2.4" fill="#FFD166"/><circle class="star t2" cx="380" cy="84" r="2.4" fill="#FFD166"/><circle class="star t3" cx="640" cy="60" r="2.4" fill="#FFD166"/><circle class="star t0" cx="760" cy="88" r="2.4" fill="#FFD166"/><circle class="star t1" cx="540" cy="46" r="2.4" fill="#FFD166"/><circle class="star t2" cx="180" cy="150" r="2.4" fill="#FFD166"/><circle class="star t3" cx="700" cy="152" r="2.4" fill="#FFD166"/><text class="done" x="440" y="112" filter="url(#glow)">PARTIDA COMPLETA</text><text class="route" x="440" y="150">MENDOZA &gt; MERCADO LIBRE &gt; DUBL&#205;N &gt; LEVRY</text>
+
+  <rect width="880" height="200" rx="14" fill="url(#scan)"/>
+  <g clip-path="url(#clip)">
+    <rect class="sweep" x="0" y="0" width="150" height="200" fill="#8FE3FF" opacity="0.04"/>
+  </g>
+</svg>

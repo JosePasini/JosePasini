@@ -15,8 +15,13 @@ GAME_URL = "https://josepasini.github.io/JosePasini/"
 FILES = {"en": "README.md", "es": "README.es.md"}
 
 
-def art(lang, name, alt):
-    return ('<img src="assets/%s/%s.svg" width="880" alt="%s">' % (lang, name, alt))
+def art(lang, name, alt, href=None):
+    # GitHub envuelve cada <img> en un link al archivo del repo. El <a> lo
+    # pisa: sin href el click no va a ningun lado; con href va a donde pidamos.
+    img = '<img src="assets/%s/%s.svg" width="880" alt="%s">' % (lang, name, alt)
+    if href:
+        return '<a href="%s">%s</a>' % (href, img)
+    return '<a>%s</a>' % img
 
 
 def L(node, lang):
@@ -94,7 +99,8 @@ def build(lang):
     # ── marquesina ──
     out.append('<div align="center">')
     out.append("")
-    out.append(art(lang, "title", "Jose Pasini"))
+    game = GAME_URL + ("" if lang == "en" else "?lang=es")
+    out.append(art(lang, "title", "Jose Pasini", href=game))
     out.append("")
     out.append("**%s**" % L(STORY["intro"]["hook"], lang))
     out.append("")

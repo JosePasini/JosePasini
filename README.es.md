@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/es/title.svg" width="880" alt="Jose Pasini">
+<a href="https://josepasini.github.io/JosePasini/?lang=es"><img src="assets/es/title.svg" width="880" alt="Jose Pasini"></a>
 
 **No hay lista de skills acá. Se juega.**
 
@@ -12,7 +12,7 @@ Sos yo, en 2020, en Mendoza. Hay un título por terminar, un trabajo por consegu
 
 <div align="center">
 
-<img src="assets/es/mapa.svg" width="880" alt="La partida">
+<a><img src="assets/es/mapa.svg" width="880" alt="La partida"></a>
 
 </div>
 
@@ -27,7 +27,7 @@ Sos yo, en 2020, en Mendoza. Hay un título por terminar, un trabajo por consegu
 
 <div align="center">
 
-<img src="assets/es/ch1-mendoza.svg" width="880" alt="Mendoza, 2020">
+<a><img src="assets/es/ch1-mendoza.svg" width="880" alt="Mendoza, 2020"></a>
 
 </div>
 
@@ -42,7 +42,7 @@ Sobre el escritorio hay tres cosas: el plan de estudios, un mail sin abrir de un
 
 <div align="center">
 
-<img src="assets/es/egg-guitarra.svg" width="880" alt="Agarrar la guitarra">
+<a><img src="assets/es/egg-guitarra.svg" width="880" alt="Agarrar la guitarra"></a>
 
 </div>
 
@@ -59,7 +59,7 @@ También voy bastante al teatro, y sostengo que un bar es un lugar excelente par
 
 <div align="center">
 
-<img src="assets/es/ch2-utn.svg" width="880" alt="La UTN">
+<a><img src="assets/es/ch2-utn.svg" width="880" alt="La UTN"></a>
 
 </div>
 
@@ -74,7 +74,7 @@ Pero dos dejaron de ser "entregá esto el martes" y pasaron a ser "quiero ver si
 
 <div align="center">
 
-<img src="assets/es/p-elbuensabor.svg" width="880" alt="El Buen Sabor">
+<a><img src="assets/es/p-elbuensabor.svg" width="880" alt="El Buen Sabor"></a>
 
 </div>
 
@@ -93,7 +93,7 @@ El dominio no sabe que MySQL existe. Los controllers no saben que pasa abajo. Un
 
 <div align="center">
 
-<img src="assets/es/p-latripulacion.svg" width="880" alt="La Tripulación">
+<a><img src="assets/es/p-latripulacion.svg" width="880" alt="La Tripulación"></a>
 
 </div>
 
@@ -114,7 +114,7 @@ Es la primera vez que escribí software donde la pregunta no era "¿funciona?" s
 
 <div align="center">
 
-<img src="assets/es/ch3-challenge.svg" width="880" alt="El challenge">
+<a><img src="assets/es/ch3-challenge.svg" width="880" alt="El challenge"></a>
 
 </div>
 
@@ -139,7 +139,7 @@ Uno de esos mails termina en una oferta.
 
 <div align="center">
 
-<img src="assets/es/ch4-escala.svg" width="880" alt="Escala">
+<a><img src="assets/es/ch4-escala.svg" width="880" alt="Escala"></a>
 
 </div>
 
@@ -158,7 +158,7 @@ También aprendí a usar **Kibana** y **Datadog** de verdad. La diferencia entre
 
 <div align="center">
 
-<img src="assets/es/ch5-avion.svg" width="880" alt="El avión">
+<a><img src="assets/es/ch5-avion.svg" width="880" alt="El avión"></a>
 
 </div>
 
@@ -179,7 +179,7 @@ Tomás nota. Eso va a ser un proyecto.
 
 <div align="center">
 
-<img src="assets/es/ch6-idioma.svg" width="880" alt="El idioma">
+<a><img src="assets/es/ch6-idioma.svg" width="880" alt="El idioma"></a>
 
 </div>
 
@@ -198,7 +198,7 @@ Aprender un idioma de grande te devuelve algo útil: la sensación de ser malo e
 
 <div align="center">
 
-<img src="assets/es/ch7-levry.svg" width="880" alt="Hoy">
+<a><img src="assets/es/ch7-levry.svg" width="880" alt="Hoy"></a>
 
 </div>
 
@@ -212,7 +212,7 @@ Esa es la combinación que me interesa: sistemas que aguanten de verdad, y las h
 
 <div align="center">
 
-<img src="assets/es/final.svg" width="880" alt="La partida">
+<a><img src="assets/es/final.svg" width="880" alt="La partida"></a>
 
 **Llegaste hasta el final, así que probablemente quieras hablar.**
 

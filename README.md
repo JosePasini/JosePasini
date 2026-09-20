@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/en/title.svg" width="880" alt="Jose Pasini">
+<a href="https://josepasini.github.io/JosePasini/"><img src="assets/en/title.svg" width="880" alt="Jose Pasini"></a>
 
 **There is no skills list here. You play for it.**
 
@@ -12,7 +12,7 @@ You are me, in 2020, in Mendoza. There is a degree to finish, a job to land and 
 
 <div align="center">
 
-<img src="assets/en/mapa.svg" width="880" alt="The run">
+<a><img src="assets/en/mapa.svg" width="880" alt="The run"></a>
 
 </div>
 
@@ -27,7 +27,7 @@ You are me, in 2020, in Mendoza. There is a degree to finish, a job to land and 
 
 <div align="center">
 
-<img src="assets/en/ch1-mendoza.svg" width="880" alt="Mendoza, 2020">
+<a><img src="assets/en/ch1-mendoza.svg" width="880" alt="Mendoza, 2020"></a>
 
 </div>
 
@@ -42,7 +42,7 @@ There are three things on the desk: the university syllabus, an unopened email f
 
 <div align="center">
 
-<img src="assets/en/egg-guitarra.svg" width="880" alt="Pick up the guitar">
+<a><img src="assets/en/egg-guitarra.svg" width="880" alt="Pick up the guitar"></a>
 
 </div>
 
@@ -59,7 +59,7 @@ I also go to the theatre a fair bit, and I maintain that a bar is an excellent p
 
 <div align="center">
 
-<img src="assets/en/ch2-utn.svg" width="880" alt="University">
+<a><img src="assets/en/ch2-utn.svg" width="880" alt="University"></a>
 
 </div>
 
@@ -74,7 +74,7 @@ But two stopped being "hand this in on Tuesday" and became "I want to see if I c
 
 <div align="center">
 
-<img src="assets/en/p-elbuensabor.svg" width="880" alt="El Buen Sabor">
+<a><img src="assets/en/p-elbuensabor.svg" width="880" alt="El Buen Sabor"></a>
 
 </div>
 
@@ -93,7 +93,7 @@ The domain does not know MySQL exists. The controllers do not know what happens 
 
 <div align="center">
 
-<img src="assets/en/p-latripulacion.svg" width="880" alt="La Tripulación">
+<a><img src="assets/en/p-latripulacion.svg" width="880" alt="La Tripulación"></a>
 
 </div>
 
@@ -114,7 +114,7 @@ It is the first time I wrote software where the question was not "does it work?"
 
 <div align="center">
 
-<img src="assets/en/ch3-challenge.svg" width="880" alt="The challenge">
+<a><img src="assets/en/ch3-challenge.svg" width="880" alt="The challenge"></a>
 
 </div>
 
@@ -139,7 +139,7 @@ One of those emails ends in an offer.
 
 <div align="center">
 
-<img src="assets/en/ch4-escala.svg" width="880" alt="Scale">
+<a><img src="assets/en/ch4-escala.svg" width="880" alt="Scale"></a>
 
 </div>
 
@@ -158,7 +158,7 @@ I also learned to use **Kibana** and **Datadog** for real. The difference betwee
 
 <div align="center">
 
-<img src="assets/en/ch5-avion.svg" width="880" alt="The plane">
+<a><img src="assets/en/ch5-avion.svg" width="880" alt="The plane"></a>
 
 </div>
 
@@ -179,7 +179,7 @@ You take note. That is going to be a project.
 
 <div align="center">
 
-<img src="assets/en/ch6-idioma.svg" width="880" alt="The language">
+<a><img src="assets/en/ch6-idioma.svg" width="880" alt="The language"></a>
 
 </div>
 
@@ -198,7 +198,7 @@ Learning a language as an adult gives you something useful back: the feeling of 
 
 <div align="center">
 
-<img src="assets/en/ch7-levry.svg" width="880" alt="Today">
+<a><img src="assets/en/ch7-levry.svg" width="880" alt="Today"></a>
 
 </div>
 
@@ -212,7 +212,7 @@ That is the combination I care about: systems that actually hold up, and the too
 
 <div align="center">
 
-<img src="assets/en/final.svg" width="880" alt="The run">
+<a><img src="assets/en/final.svg" width="880" alt="The run"></a>
 
 **You made it to the end, so odds are you want to talk.**
 
